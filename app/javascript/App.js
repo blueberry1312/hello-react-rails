@@ -11,8 +11,7 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/greeting" element={<Greeting />} />
-          <Route path="*" element={<Navigate to="/greeting" />} />
+          <Route path="/" element={<Greeting />} />
         </Routes>
       </BrowserRouter>
     </Provider>
